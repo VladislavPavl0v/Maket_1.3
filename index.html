@@ -1,0 +1,107 @@
+<!-- Respond.js для IE8 (media queries) -->
+<!-- Предупреждение: Respond.js не будет работать при просмотре страницы через file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/Normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <header hidden class="header">
+        <button type="button" class="header__burger">
+          <img src="./img/icon1.svg" class="img-button" alt="menu" />
+        </button>
+        <img class="header__logo" src="./img/Group.svg" alt="logo" />
+        <ul class="header__actions">
+          <li hidden class="header__menu-item">
+            <button type="button" class="header__menu--button">
+              <img src="./img/icon4.svg" class="img-button" alt="telephone" />
+            </button>
+          </li>
+          <li hidden class="header__menu-item">
+            <button type="button" class="header__menu--button">
+              <img src="./img/icon5.svg" class="img-button" alt="message" />
+            </button>
+          </li>
+          <li hidden class="header__menu-item">
+            <button type="button" class="header__menu--button">
+              <img src="./img/icon6.svg" class="img-button" alt="human" />
+            </button>
+          </li>
+          <li class="header__menu-item menu">
+            <button type="button" class="header__menu--button">
+              <img src="./img/icon2.svg" class="img-button" alt="wrenches" />
+            </button>
+          </li>
+          <li class="header__menu-item">
+            <button type="button" class="header__menu--button">
+              <img src="./img/icon3.svg" class="img-button" alt="magnifier" />
+            </button>
+          </li>
+        </ul>
+      </header>
+      <section class="services">
+        <div class="services__title">Услуги и сервисы</div>
+        <div hidden class="services__actions"><a class="service__action-name">Оставить заявку</a>
+          <button class="service__action">
+            <img src="./img/icon2.svg" class="img-button" alt="wrenches" />
+          </button><a class="service__action-name">Статус Ремонта</a>
+          <button class="service__action">
+            <img src="./img/icon3.svg" class="img-button" alt="magnifier" />
+          </button>
+        </div>
+      </section>
+      <ul class="services__navigation navigation">
+        <li class="services__menu-item">
+          <a class="services__menu-item--active">Ремонтируемые устройства</a>
+        </li>
+        <li class="services__menu-item">
+          <a class="services__menu-item--active">Дополнительный услуги</a>
+        </li>
+        <li class="services__menu-item">
+          <a class="services__menu-item--active">Цены на услуги</a>
+        </li>
+        <li class="services__menu-item">
+          <a class="services__menu-item--active">Специальные цен</a>
+        </li>
+        <li class="services__menu-item">
+          <a class="services__menu-item--active">Адреса сервисных центров</a>
+        </li>
+      </ul>
+      <section class="main__about about">
+        <div class="about__text-container">
+          <p class="about__text-container--text">
+            Мы являемся авторизованным <br />
+            сервисным центром по ремонту техники <br />
+            Dell. Только у нас вы можете<br />
+            отремонтировать свой ноутбук Dell с <br />
+            официальной гарантией производителя.<br
+            class="about__text-container--br"/ >
+            <br class="about__text-container--br" />
+            Мы успешно работаем с 1992 года и <br />заслужили репутацию
+            надежного партнера,<br />
+            что подтверждает большое количество постоянных клиентов.<br />
+            Мы гордимся тем, что к нам обращаются <br />
+            по рекомендациям и, в свою очередь, советуют нас родным и близким
+          </p>
+          <button class="about__button">Читать далее</button>
+        </div>
+        <div class="about__image-container">
+          <img
+            class="about__image-container--picture"
+            src="./img/MG_3223.png"
+          />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
